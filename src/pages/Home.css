@@ -1,0 +1,90 @@
+#content {
+    height: 30vh;
+}
+
+#home-info {
+    width: 100%;
+    height: 100%;
+}
+
+#home-info .ok {
+    padding-top: 70px; /* corrected padding */
+   
+}
+
+#home-info img {
+    width: 80%;
+    border-radius: 180%;
+    align-self: center;
+    margin-left: 20%;
+    height: 55vh;
+    margin-bottom: 40%;
+    
+   
+}
+
+#home-info .jao {
+    margin-top: 0;
+}
+
+.btn {
+    color: #000;
+    background: rgb(gray); /* Is `gray` a variable or a typo? Should it be a color name or code? */
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    color: #0f0c0c;
+    background: rgb(247, 159, 173);
+}
+
+#home-info .card {
+    background: transparent; /* Removes background color */
+    border: 0; /* Ensures no border */
+}
+
+#home-info .jao h2 {
+    text-shadow: 5px 5px 5px rgb(243, 70, 182);
+}
+
+/* Remove or adjust any other styles that could create borders or boxes */
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 10px;
+    height: 20px;
+    background: rgba(211, 211, 211, 0.2); /* changed from rgba(255, 255, 255, 0.2) */
+    animation: animate 10s linear infinite;
+    bottom: -150px;
+}
+
+/* Your animation styles */
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+body {
+    background-image: url(img/mac.jfif);
+}

@@ -1,0 +1,85 @@
+#about-info {
+  min-height: 50vh;
+
+}
+
+.h1 {
+  font-size: 30px;
+}
+
+#about img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px #000;
+}
+
+#about img:hover {
+  width: 350px;
+  transition: all .5s ease;
+}
+
+#about span:hover {
+  color: #1622c9;
+  filter: drop-shadow(0 0 0.75rem purple);
+  text-shadow: 0 0 20px purple, 0 0 40px purple;
+  transition: all 0.4s ease;
+}
+
+#about span {
+  font-size: 18px;
+  text-decoration: none;#about-info {
+    min-height: 50vh;
+    background: rgb(solid white);
+}
+.h1{
+  font-size: 30px;
+}
+
+#about img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px #07b3d1;
+}
+
+#about img:hover {
+  width: 350px;
+  transition: all .5s ease;
+}
+
+#about span:hover {
+  color: #1622c9;
+  filter: drop-shadow(0 0 0.75rem purple);
+  text-shadow: 0 0 20px purple, 0 0 40px purple;
+  transition: all 0.4s ease;
+}
+
+#about span {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(239, 6, 111);
+}
+
+#about {
+  background: pink; 
+  padding-top: 10px;
+padding-bottom: 30px;
+}
+.card shadow{
+  background: rgb(247, 159, 173);
+
+}
+.card{
+  background: rgb(247, 159, 173);
+
+}
+  
+}
+
+#about {
+  margin-bottom: 18%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+
+

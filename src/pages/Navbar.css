@@ -1,0 +1,40 @@
+.navbar{
+  background: gray; 
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-weight: bold;
+    color: rgb(250, 245, 250);
+    text-shadow: 0 0 20px red, 0 0 40px red;
+    transition: all 0.4s ease;
+  }
+  .logo-img {
+    height: 50px;
+    width: 50px; 
+    border-radius: 80%;
+    background-color: solid gray;
+  }
+  
+  .navbar .navbar-brand:hover {
+    color: #fcfafb;
+    filter: drop-shadow(0 0 0.75rem rgb(red));
+    text-shadow: 0 0 20px rgb(red), 0 0 40px rgb(red);
+    transition: all 0.4s ease;
+  }
+  
+  .navbar .navbar-brand {
+    color: rgb(18, 18, 18);
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(16, 8, 16);
+    font-weight: bold;
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link.active {
+    background-color: rgb(red);
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
